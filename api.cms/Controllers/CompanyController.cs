@@ -83,6 +83,7 @@ namespace api.cms.Controllers
                         company.Description = value.Description;
                         company.Slogan = value.Slogan;
                         company.PhoneNumber = value.PhoneNumber;
+                        company.Email = value.Email;
                         company.About = value.About;
 
                         await context.SaveChangesAsync();
